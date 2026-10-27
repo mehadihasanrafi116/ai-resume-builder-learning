@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "bloom — a little more you",
+  title: "Hashirama — a little more you",
   description:
     "A little corner of the internet for the moments, places, and people you love.",
 };

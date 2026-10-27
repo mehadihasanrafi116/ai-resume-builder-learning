@@ -5,9 +5,10 @@
   --foreground: #242522;
   --muted: #898b84;
   --line: #eeefeb;
-  --accent: #ee7259;
-  --accent-soft: #fff0eb;
-  --green: #c9e8a9;
+  --accent: #1db954;
+  --accent-dark: #168a3d;
+  --accent-soft: #e8f7ed;
+  --green: #b7e5c4;
 }
 
 @theme inline {
@@ -163,17 +164,17 @@ button {
 }
 
 .nav-link.active {
-  background: #fff1ed;
-  color: #e5674e;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
   font-weight: 650;
 }
 
 .main-nav .nav-link:nth-child(2) > svg {
-  color: #6488d8;
+  color: #6ea985;
 }
 
 .main-nav .nav-link:nth-child(3) > svg {
-  color: #9c76cf;
+  color: #6ea985;
 }
 
 .main-nav .nav-link:nth-child(4) > svg {
@@ -181,11 +182,11 @@ button {
 }
 
 .main-nav .nav-link:nth-child(5) > svg {
-  color: #d58a57;
+  color: #5d8a65;
 }
 
 .left-sidebar > .nav-link > svg {
-  color: #c49a54;
+  color: #77a66e;
 }
 
 .nav-link.active::before {
@@ -213,8 +214,8 @@ button {
 }
 
 .main-nav .nav-link:nth-child(3) .nav-count {
-  background: #f0eafa;
-  color: #8d68bf;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
 }
 
 .sidebar-divider {
@@ -345,7 +346,7 @@ button {
 }
 
 .avatar-you {
-  background-image: linear-gradient(135deg, #f3d9c7, #ad7966);
+  background-image: linear-gradient(135deg, #d8efdf, #7a9c7c);
 }
 
 .avatar-maya {
@@ -415,7 +416,7 @@ button {
 }
 
 .topbar-title h1 span {
-  color: #e8755e;
+  color: var(--accent-dark);
 }
 
 .topbar-actions {
@@ -567,7 +568,7 @@ button {
   width: 58px;
   height: 58px;
   place-items: center;
-  border: 1.5px solid #f17e65;
+  border: 1.5px solid var(--accent);
   border-radius: 50%;
   background: #fff;
 }
@@ -583,7 +584,7 @@ button {
 }
 
 .story-ring .avatar-you {
-  background-image: linear-gradient(135deg, #eed4c2, #c5967c);
+  background-image: linear-gradient(135deg, #d8efdf, #7a9c7c);
 }
 
 .story-add {
@@ -628,7 +629,7 @@ button {
   height: 6px;
   border-radius: 50%;
   background: #a3c879;
-  box-shadow: 0 0 0 3px #ecf4e3;
+  box-shadow: 0 0 0 3px #e8f7ed;
 }
 
 .sort-button {
@@ -754,7 +755,7 @@ button {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #e4f2b1;
+  background: #b7e5c4;
 }
 
 .photo-count {
@@ -781,7 +782,7 @@ button {
 }
 
 .heart-button:hover {
-  color: #e76d57;
+  color: var(--accent-dark);
 }
 
 .post-likes {
@@ -852,23 +853,23 @@ button {
   overflow: hidden;
   min-height: 170px;
   padding: 19px 19px 17px;
-  border: 1px solid #f2e7d5;
+  border: 1px solid #e5edd8;
   border-radius: 10px;
-  background: #fbf3e7;
+  background: #f2f7ed;
 }
 
 .note-topline {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #a38d6a;
+  color: #71865c;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 1.3px;
 }
 
 .note-sparkle {
-  color: #d3a962;
+  color: #83a846;
   font-size: 17px;
 }
 
@@ -882,14 +883,14 @@ button {
 .daily-note > p {
   max-width: 225px;
   margin: 19px 0 11px;
-  color: #594f41;
+  color: #4a5441;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   line-height: 1.48;
 }
 
 .note-credit {
-  color: #a39784;
+  color: #89927d;
   font-size: 9px;
 }
 
@@ -899,7 +900,7 @@ button {
   bottom: -84px;
   width: 155px;
   height: 155px;
-  border: 1px solid #eddfc5;
+  border: 1px solid #e2ebd5;
   border-radius: 50%;
 }
 
@@ -975,10 +976,10 @@ button {
 .suggestion > button {
   margin-left: auto;
   padding: 5px 8px;
-  border: 1px solid #f2e1db;
+  border: 1px solid #d7eddd;
   border-radius: 5px;
   background: #fff;
-  color: #e36f57;
+  color: var(--accent-dark);
   cursor: pointer;
   font-size: 9px;
   font-weight: 650;
@@ -986,7 +987,7 @@ button {
 }
 
 .suggestion > button:hover {
-  background: #fff1ed;
+  background: var(--accent-soft);
 }
 
 .all-suggestions {
@@ -1268,22 +1269,22 @@ button {
   }
 
   .mobile-nav a:nth-child(2) {
-    color: #6488d8;
+    color: #6ea985;
   }
 
   .mobile-nav a:nth-child(4) {
-    color: #9c76cf;
+    color: #77a66e;
   }
 
   .mobile-nav a:nth-child(5) {
-    color: #6ea985;
+    color: #5d8a65;
   }
 
   .mobile-nav a:nth-child(3) {
     width: 38px;
     height: 38px;
     border-radius: 13px;
-    background: #fff0eb;
+    background: var(--accent-soft);
     color: var(--accent);
   }
 }
@@ -1346,7 +1347,7 @@ button {
   padding: 28px 36px;
   border: 1px solid #e8efd9;
   border-radius: 14px;
-  background: linear-gradient(115deg, #f3f8e9 0%, #fbf5e9 60%, #fff0eb 100%);
+  background: linear-gradient(115deg, #edf7e9 0%, #f5f8ee 60%, #e8f7ed 100%);
 }
 
 .explore-intro h2 {
@@ -1357,7 +1358,7 @@ button {
 }
 
 .explore-intro h2 span {
-  color: #e8755e;
+  color: var(--accent-dark);
 }
 
 .explore-intro p {
@@ -1584,11 +1585,11 @@ button {
 
 .conversation-row:hover,
 .conversation-row.selected {
-  background: #faf8f4;
+  background: #f3f8f2;
 }
 
 .conversation-row.selected {
-  box-shadow: inset 3px 0 #ee7259;
+  box-shadow: inset 3px 0 var(--accent);
 }
 
 .conversation-avatar {
@@ -1708,8 +1709,8 @@ button {
 .chat-message.sent {
   align-self: flex-end;
   border-bottom-right-radius: 4px;
-  background: #fff0eb;
-  color: #70463e;
+  background: var(--accent-soft);
+  color: #315a3b;
 }
 
 .message-composer {
@@ -1746,7 +1747,7 @@ button {
 }
 
 .message-composer > .send-message-button {
-  background: #ee7259;
+  background: var(--accent);
   color: #fff;
 }
 
@@ -1791,7 +1792,7 @@ button {
   height: 142px;
   justify-self: center;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 2px #f0b4a7;
+  box-shadow: 0 0 0 2px #a8d9b5;
 }
 
 .profile-details {
@@ -2001,9 +2002,9 @@ button {
   gap: 14px;
   margin-bottom: 20px;
   padding: 18px;
-  border: 1px solid #f1e7d7;
+  border: 1px solid #e5edd8;
   border-radius: 10px;
-  background: #fbf5eb;
+  background: #f2f7ed;
 }
 
 .saved-intro > span {
@@ -2012,8 +2013,8 @@ button {
   height: 40px;
   place-items: center;
   border-radius: 11px;
-  background: #f3ead9;
-  color: #a68b5f;
+  background: #e4f1dc;
+  color: #71865c;
 }
 
 .saved-intro h2 {
@@ -2257,7 +2258,7 @@ button {
     place-items: center;
     border: 0;
     border-radius: 13px;
-    background: #fff0eb;
+    background: var(--accent-soft);
     color: var(--accent);
     cursor: pointer;
   }

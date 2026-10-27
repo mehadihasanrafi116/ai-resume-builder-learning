@@ -21,7 +21,7 @@ export default function ProfilePage() {
       <SocialNavigation />
       <main className="main-content profile-main">
         <header className="screen-topbar">
-          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>bloom<span className="brand-period">.</span></span></div>
+          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>Hashirama<span className="brand-period">.</span></span></div>
           <div><span className="eyebrow">YOUR OWN LITTLE CORNER</span><h1>Profile</h1></div>
           <button className="profile-menu-button" type="button" aria-label="More profile options"><Icon name="more" /></button>
         </header>

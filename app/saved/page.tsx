@@ -12,7 +12,7 @@ export default function SavedPage() {
       <SocialNavigation />
       <main className="main-content">
         <header className="screen-topbar">
-          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>bloom<span className="brand-period">.</span></span></div>
+          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>Hashirama<span className="brand-period">.</span></span></div>
           <div><span className="eyebrow">KEEP THE GOOD ONES CLOSE</span><h1>Saved moments</h1></div>
         </header>
         <section className="saved-page profile-page">

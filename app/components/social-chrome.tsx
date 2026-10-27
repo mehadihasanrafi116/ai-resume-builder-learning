@@ -63,9 +63,9 @@ export function SocialNavigation() {
   return (
     <>
       <aside className="left-sidebar">
-        <Link className="brand" href="/" aria-label="bloom home">
+        <Link className="brand" href="/" aria-label="Hashirama home">
           <span className="brand-mark"><span /></span>
-          <span>bloom<span className="brand-period">.</span></span>
+          <span>Hashirama<span className="brand-period">.</span></span>
         </Link>
         <div className="sidebar-label">MENU</div>
         <nav className="main-nav" aria-label="Main navigation">

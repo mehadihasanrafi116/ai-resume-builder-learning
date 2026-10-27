@@ -11,7 +11,7 @@ const stories = [
 
 const suggestions = [
   { name: "amelia.rose", note: "Followed by sofia.lee", avatar: "avatar-amelia" },
-  { name: "milesaway", note: "New to bloom", avatar: "avatar-miles" },
+  { name: "milesaway", note: "New to Hashirama", avatar: "avatar-miles" },
   { name: "nora.finds", note: "Followed by julesmorgan", avatar: "avatar-nora" },
 ];
 
@@ -24,7 +24,7 @@ export default function Home() {
         <header className="topbar">
           <div className="mobile-brand">
             <span className="brand-mark"><span /></span>
-            <span>bloom<span className="brand-period">.</span></span>
+            <span>Hashirama<span className="brand-period">.</span></span>
           </div>
           <div className="topbar-title">
             <span className="eyebrow">YOUR CORNER OF THE INTERNET</span>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="topbar-actions">
             <label className="search-box">
               <Icon name="search" size={18} />
-              <input aria-label="Search bloom" placeholder="Search anything..." />
+              <input aria-label="Search Hashirama" placeholder="Search anything..." />
               <kbd>⌘ K</kbd>
             </label>
             <button className="create-button" type="button">

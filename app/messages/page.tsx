@@ -39,7 +39,7 @@ export default function MessagesPage() {
       <SocialNavigation />
       <main className="main-content messages-main">
         <header className="screen-topbar">
-          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>bloom<span className="brand-period">.</span></span></div>
+          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>Hashirama<span className="brand-period">.</span></span></div>
           <div><span className="eyebrow">YOUR LITTLE CONVERSATIONS</span><h1>Messages</h1></div>
           <button className="create-button new-message-button" type="button" onClick={startNewMessage}><Icon name="plus" size={17} /><span>New message</span></button>
         </header>

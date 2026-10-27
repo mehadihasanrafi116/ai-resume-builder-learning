@@ -30,7 +30,7 @@ export default function ExplorePage() {
       <SocialNavigation />
       <main className="main-content">
         <header className="screen-topbar">
-          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>bloom<span className="brand-period">.</span></span></div>
+          <div className="mobile-brand"><span className="brand-mark"><span /></span><span>Hashirama<span className="brand-period">.</span></span></div>
           <div><span className="eyebrow">A LITTLE INSPIRATION</span><h1>Explore</h1></div>
           <label className="search-box explore-search">
             <Icon name="search" size={18} />
